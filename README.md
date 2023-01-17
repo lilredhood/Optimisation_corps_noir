@@ -12,3 +12,9 @@ où :
 * $\lambda$ : longueur d'onde ($m$).
 * $T$ : température absolue de la surface du corps noir ($K$).
 * $n$ : indice de réfraction du milieu (ici le vide).
+
+On souhaite trouver la valeur $\lambda^*$ qui maximise l'émittance monochromatique pour une température de surface $T$ donnée. Pour s'y faire, la méthode de la section dorée sera utilisée (https://en.wikipedia.org/wiki/Golden-section_search).
+
+De plus, dans ce projet, les lois de Wien seront vérifiés :
+* $\lambda^* T = A$
+* $M(\lambda^*) = B.T^5$. 
